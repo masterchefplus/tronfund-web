@@ -1,0 +1,250 @@
+{
+  "invest": {
+    "en": "Invest",
+    "ru": "Инвестировать"
+  },
+  "referral": {
+    "en": "Referral program",
+    "ru": "Реферальная программа"
+  },
+  "faq": {
+    "en": "FaQ",
+    "ru": "Вопросы и Ответы"
+  },
+  "contact": {
+    "en": "Contact us",
+    "ru": "Контакты"
+  },
+  "main_header": {
+    "en": "Get 3.9% - 4.2% per day ROI forever",
+    "ru": "Получите 3.9% - 4.2% в день навсегда"
+  },
+  "main_paragraph": {
+    "en": "Decentralized & Secure smart contract fund",
+    "ru": "Децентрализованный и безопасный фонд на основе смарт контракта"
+  },
+  "smart_contract_link": {
+    "en": "Smart contract",
+    "ru": "Смарт контракт"
+  },
+  "verify_source_link": {
+    "en": "Verify source code",
+    "ru": "Проверьте исходный код"
+  },
+  "verify_source_link": {
+    "en": "Verify source code",
+    "ru": "Проверьте исходный код"
+  },
+  "transparent_and_secure": {
+    "en": "Transparent & Secured",
+    "ru": "Прозрачно и безопасно"
+  },
+  "transparent_desc": {
+    "en": "An open source code that is 100% transparent and fair to all its participants, the code can't be modified.",
+    "ru": "Открытый исходный код, который на 100% прозрачен и справедлив для всех его участников, код не может быть изменен."
+  },
+  "reliable": {
+    "en": "Reliable",
+    "ru": "Надежно"
+  },
+  "reliable_desc": {
+    "en": "Unstoppable, smart contract will run forever on Tron blockchain.",
+    "ru": "Неостановимый, смарт контракт будет работать вечно на блокчейне Tron."
+  },
+  "instant_payouts": {
+    "en": "Instant payouts",
+    "ru": "Мгновенные выплаты"
+  },
+  "instant_payouts_desc": {
+    "en": "Withdraw your profit at any time.",
+    "ru": "Снимайте свою прибыль в любое время."
+  },
+  "contract_balance": {
+    "en": "Contract balance",
+    "ru": "Баланс контракта"
+  },
+  "wallet": {
+    "en": "Wallet",
+    "ru": "Кошелек"
+  },
+  "wallet_balance": {
+    "en": "Wallet balance",
+    "ru": "Баланс кошелька"
+  },
+  "total_investments": {
+    "en": "Total investments",
+    "ru": "Всего инвестиций"
+  },
+  "minimum_deposit": {
+    "en": "Minimum deposit 10 TRX",
+    "ru": "Минимальный депозит 10 TRX"
+  },
+  "paid_dividends": {
+    "en": "Paid dividends",
+    "ru": "Выплаченные дивиденды"
+  },
+  "withdrawable": {
+    "en": "Withdrawable",
+    "ru": "Доступно"
+  },
+  "referral_rewards_included": {
+    "en": "Referral rewards included",
+    "ru": "Реферальные вознаграждения включены"
+  },
+  "referral_rewards": {
+    "en": "Referral rewards",
+    "ru": "Реферальные вознаграждения"
+  },
+  "bonus": {
+    "en": "Bonus",
+    "ru": "Бонус"
+  },
+  "roi_title": {
+    "en": "Amount invested equal or greater",
+    "ru": "<span style='font-family: \"Oswald\"'>Сумма инвестиций равна или превышает<span>"
+  },
+  "roi_block": {
+    "en": "Daily ROI",
+    "ru": "<span style='font-family: \"Oswald\"'>дневной ROI<span>"
+  },
+  "withdraw": {
+    "en": "Withdraw",
+    "ru": "Снять"
+  },
+  "referral_link": {
+    "en": "Your referral link",
+    "ru": "Ваша реферальная ссылка"
+  },
+  "copy_link": {
+    "en": "copy",
+    "ru": "копировать"
+  },
+  "referral_link_info": {
+    "en": "All your referrals will get a 0.5% invitee bonus of what they invest.",
+    "ru": "Все ваши рефералы получат бонус в размере 0,5% от суммы инвестиций."
+  },
+  "paid_referral_rewards": {
+    "en": "Paid referral rewards",
+    "ru": "Оплаченные реферальные вознаграждения"
+  },
+  "your_referrals_total": {
+    "en": "Your referrals total",
+    "ru": "Всего рефералов"
+  },
+  "first_level": {
+    "en": "1 Level",
+    "ru": "1 Уровень"
+  },
+  "second_level": {
+    "en": "2 Level",
+    "ru": "2 Уровень"
+  },
+  "third_level": {
+    "en": "3 Level",
+    "ru": "3 Уровень"
+  },
+  "first_level_desc": {
+    "en": "5% Referral rewards",
+    "ru": "5% реферальных вознаграждений"
+  },
+  "second_level_desc": {
+    "en": "2% Referral rewards",
+    "ru": "2% реферальных вознаграждений"
+  },
+  "third_level_desc": {
+    "en": "0.5% Referral rewards",
+    "ru": "0.5% реферальных вознаграждений"
+  },
+  "invetee_rewards": {
+    "en": "Invetee rewards",
+    "ru": "Invetee вознаграждения"
+  },
+  "invetee_rewards_desc": {
+    "en": "0.5% of your investments",
+    "ru": "0.5% ваших инвестиций"
+  },
+  "investments": {
+    "en": "Investments",
+    "ru": "Вложения"
+  },
+  "date": {
+    "en": "Date",
+    "ru": "Дата"
+  },
+  "invested": {
+    "en": "Invested",
+    "ru": "Инвестировано"
+  },
+  "roi": {
+    "en": "ROI",
+    "ru": "ROI"
+  },
+  "paid_out": {
+    "en": "Paid out",
+    "ru": "Выплачено"
+  },
+  "available_for_withdraw": {
+    "en": "Withdrawable",
+    "ru": "Доступно"
+  },
+  "is_tronfund_a_safe": {
+    "en": "Is TronFund a safe?",
+    "ru": "<span style='font-family: \"Oswald\"'>Является ли TronFund безопасным?</span>"
+  },
+  "desc_is_tronfund_a_safe": {
+    "en": "TronFund is a smart contract which runs on Tron blockchain, the source code is verified and available for review <a target='_blank' href='https://tronsmartcontract.space/#/interact/TNGqUiKycPN6tGpDp1nyrqYVj4yYcynw1z'>here</a>. No one can modify the source code or delete the smart contract.<br/><br/>That means TronFund is totally decentralized and autonomous.",
+    "ru": "TronFund - это смарт контракт, который работает на блокчейне Tron, исходный код которого проверен и доступен для просмотра <a target='_blank' href='https://tronsmartcontract.space/#/interact/TNGqUiKycPN6tGpDp1nyrqYVj4yYcynw1z'>здесь</a>. Никто не может изменить исходный код или удалить смарт контракт.<br/><br/>Это означает, что TronFund полностью децентрализован и автономен."
+  },
+  "what_do_i_need": {
+    "en": "What do I need to use TronFund?",
+    "ru": "<span style='font-family: \"Oswald\"'>Что мне нужно для использования TronFund?</span>"
+  },
+  "desc_what_do_i_need": {
+    "en": "1. Chrome web browser.<br/><br/>2. Web extension of <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://chrome.google.com/webstore/detail/tronlink/ibnejdfjmmkpcnlpebklmnkoeoihofec\">TronLink</a> or <a  target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://chrome.google.com/webstore/detail/tronpay/gjdneabihbmcpobmfhcnljaojmgoihfk\">TronPay</a> for your Chrome web browser.",
+    "ru": "1. Веб-браузер Chrome. <br/> <br/> 2. Веб-расширение <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://chrome.google.com/webstore/detail/tronlink/ibnejdfjmmkpcnlpebklmnkoeoihofec\">TronLink</a> или <a  target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://chrome.google.com/webstore/detail/tronpay/gjdneabihbmcpobmfhcnljaojmgoihfk\">TronPay</a> для вашего веб-браузера Chrome."
+  },
+  "how_does_it_works": {
+    "en": "How does it work?",
+    "ru": "<span style='font-family: \"Oswald\"'>Как это работает?</span>"
+  },
+  "desc_how_does_it_works": {
+    "en": "By investing you get from 3.9% up to 4.2% ROI per day dividends based on your investment amount. The more you invest the more bonus you will get to the base ROI.<br/><br/>As an example:<br/>if you invest 10 000 TRX you will get 4.0% ROI per day.<br/><br/>Dividends are generated every second and you are able to withdraw or reinvest your dividends each second.<br/><br/>It's up to you to reinvest and increase your total of investments to get more dividends or to withdraw your dividends.",
+    "ru": "Инвестируя, вы получаете дивиденды с рентабельности инвестиций от 3,9% до 4,2% в день в зависимости от суммы ваших инвестиций. Чем больше вы инвестируете, тем больше бонусов вы получите к базовой рентабельности инвестиций. <br/> <br/> Например: <br/> если вы инвестируете 10 000 TRX, вы получите 4,0% рентабельности инвестиций в день. <br/> <br/> Дивиденды генерируются каждую секунду, и вы можете снимать или реинвестировать свои дивиденды каждую секунду. <br/> <br/> Вы можете реинвестировать и увеличить общую сумму инвестиций, чтобы получить больше дивидендов или отозвать свои дивиденды."
+  },
+  "how_to_get_a_bonus": {
+    "en": "How to get a bonus?",
+    "ru": "<span style='font-family: \"Oswald\"'>Как получить бонус?</span>"
+  },
+  "desc_how_to_get_a_bonus": {
+    "en": "Our base daily ROI is 3.9% but you can get up to 4.2% based on your investment amount.<br/><br/>Here list of the bonus that you can get:<br/>Equal or greater than 10 TRX you get 3.9% daily ROI.<br/>Equal or greater than 10000 TRX you get 4.0% daily ROI.<br/>Equal or greater than 30000 TRX you get 4.1% daily ROI.<br/>Equal or greater than 100000 TRX you get 4.2% daily ROI.",
+    "ru": "Наша базовая дневная рентабельность инвестиций составляет 3,9%, но вы можете получить до 4,2% в зависимости от суммы ваших инвестиций. <br/> <br/> Вот список бонусов, которые вы можете получить: <br/> Равно или больше, чем 10 TRX вы Получите 3,9% ежедневной рентабельности инвестиций. <br/> Равно или больше, чем 10000 TRX, вы получите 4,0% дневной рентабельности. <br/> Равно или больше, чем 30000 TRX, вы получите 4,1% ежедневной рентабельности. <br/> Равно или больше, чем 100000 TRX. Вы получаете 4,2% в день."
+  },
+  "do_you_have_referral_program": {
+    "en": "Do you have a referral program?",
+    "ru": "<span style='font-family: \"Oswald\"'>У вас есть реферальная программа?</span>"
+  },
+  "desc_do_you_have_referral_program": {
+    "en": "Yes at TronFund we have a unique referral program and managed through TronFund smart contract. Which allow you to gain rewards in 3 levels of referrals:<br/>level 1 you get 5.0%<br/>level 2 you get 2.0%<br/>level 3 you get 0.5%<br/><br/>The referral rewards are distributed to your balance automatically and you can withdraw at any time.<br/><br/>Also which is important all your referrals will get a 0.5% invitee bonus of what they invest.",
+    "ru": "Да, в TronFund у нас есть уникальная реферальная программа, которая управляется через смарт-контракт TronFund. Что позволяет вам получать награды в 3 уровнях рефералов: <br/> уровень 1 вы получаете 5,0% <br/> уровень 2 вы получаете 2,0% <br/> уровень 3 вы получаете 0,5% <br/> <br/> Награды за рефералов распределяются на ваш баланс автоматически, и вы можете снять их в любое время. <br/> <br/> Также важно, что все ваши рефералы получат бонус приглашенного в размере 0,5% от вложенных средств."
+  },
+  "what_is_your_fee_amount": {
+    "en": "What is your fee amount?",
+    "ru": "<span style='font-family: \"Oswald\"'>Какова ваша сумма комиссии?</span>"
+  },
+  "desc_what_is_your_fee_amount": {
+    "en": "Fees only apply when an investment is made, marketing 4%, development 2%, operation 2%.",
+    "ru": "Тарифы применяются только тогда, когда инвестиции сделаны, маркетинг 4%, развитие 2%, эксплуатация 2%."
+  },
+  "still_have_a_question": {
+    "en": "Still, have questions?",
+    "ru": "<span style='font-family: \"Oswald\"'>Тем не менее, есть вопросы?</span>"
+  },
+  "desc_still_have_a_question": {
+    "en": "Ask them in our Telegram.",
+    "ru": "Спросите их в нашем Телеграм."
+  },
+  "telegram": {
+    "en": "Telegram",
+    "ru": "Telegram"
+  }
+}

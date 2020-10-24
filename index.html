@@ -1,0 +1,337 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <title>TronFund</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link href="https://fonts.googleapis.com/css?family=Baloo|Ubuntu|Oswald" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@8.8.1/dist/sweetalert2.min.css">
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css?v=8890">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+
+  <div class="intro">
+    <div class="container">
+      <header>
+        <a href lang="ru">Русский</a>
+        <a href lang="en">English</a>
+      </header>
+      <nav>
+        <a href="#invest" data-translate="invest"></a>
+        <a href="#referral" data-translate="referral"></a>
+        <a href="#faq" data-translate="faq"></a>
+        <a href="#contact-us" data-translate="contact"></a>
+      </nav>
+      <main>
+        <div class="main-container">
+          <div class="project-info">
+            <h1>
+              <span>Tron Fund</span>
+            </h1>
+            <h4 data-translate="main_header"></h4>
+            <p data-translate="main_paragraph"></p>
+            <div class="smart-contract-links">
+              <div>
+                <a href="https://tronscan.org/#/contract/TNGqUiKycPN6tGpDp1nyrqYVj4yYcynw1z" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16px" height="16px">
+                      <path fill="#f44336" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal" d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible"/>
+                  </svg>
+                  <span data-translate="smart_contract_link"></span>
+                </a>
+              </div>
+              <div>
+                <a href="https://tronsmartcontract.space/#/interact/TNGqUiKycPN6tGpDp1nyrqYVj4yYcynw1z" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16px" height="16px">
+                      <path fill="#f44336" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal" d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible"/>
+                  </svg>
+                  <span data-translate="verify_source_link"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-container">
+          <div class="info-block transparent">
+            <h4 data-translate="transparent_and_secure"></h4>
+            <p data-translate="transparent_desc"></p>
+          </div>
+          <div class="info-block reliable">
+            <h4 data-translate="reliable"></h4>
+            <p data-translate="reliable_desc"></p>
+          </div>
+          <div class="info-block instant-payout">
+            <h4 data-translate="instant_payouts"></h4>
+            <p data-translate="instant_payouts_desc"></p>
+          </div>
+        </div>
+        <div class="main-container center-items">
+          <div class="balance-info__title" data-translate="contract_balance"></div>
+          <div id="contract-balance"></div>
+          <div class="balance-info__prefix">TRX</div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <div id="invest" class="block">
+    <div class="container">
+      <h1 data-translate="invest"></h1>
+      <section>
+        <div class="invest-row">
+          <div>
+            <h1 data-translate="wallet"></h1>
+            <p id="wallet-address"></p>
+          </div>
+          <div>
+            <h1 data-translate="wallet_balance"></h1>
+            <div class="wallet-balance"><span id="wallet-balance"></span><span>TRX</span></div>
+          </div>
+        </div>
+        <div class="invest-row">
+          <div>
+            <h3 data-translate="total_investments"></h3>
+            <div class="mb40"><span id="total-investments"></span><span>TRX</span></div>
+            <div class="invest-input">
+              <input id="invest-amount" type="text" name="" placeholder="0">
+              <i>TRX</i>
+              <div data-translate="minimum_deposit"></div>
+            </div>
+            <button class="btn-invest" type="button" data-translate="invest"></button>
+          </div>
+          <div class="bl1">
+            <h3 data-translate="paid_dividends"></h3>
+            <div><span id="paid-dividends"></span><span>TRX</span></div>
+            <div class="withdraw-info">
+              <div>
+                <h3 data-translate="withdrawable"></h3>
+                <div><span id="withdrawable"></span><span>TRX</span></div>
+                <span data-translate="referral_rewards_included"></span>
+              </div>
+              <div>
+                <h3 data-translate="referral_rewards"></h3>
+                <div><span id="referral-rewards"></span><span>TRX</span></div>
+              </div>
+            </div>
+            <button class="btn-withdraw" data-translate="withdraw"></button>
+          </div>
+        </div>
+        <div class="invest-row">
+          <div class="info">
+            <div data-translate="bonus"></div>
+            <div class="flex">
+              <div class="fb32">
+                <div data-translate="roi_title"></div>
+                <div data-translate="roi_block"></div>
+              </div>
+              <div class="flex full-width" style="align-items: center;margin-left: 9%;">
+                  <div class="full-width item">
+                    <div>10<span>TRX</span></div>
+                    <div>3.9%</div>
+                  </div>
+                  <div class="full-width item">
+                    <div>10 000<span>TRX</span></div>
+                    <div>4.0%</div>
+                  </div>
+                  <div class="full-width item">
+                    <div>30 000<span>TRX</span></div>
+                    <div>4.1%</div>
+                  </div>
+                  <div class="full-width item">
+                    <div>100 000<span>TRX</span></div>
+                    <div>4.2%</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div id="referral" class="block">
+    <div class="container">
+      <h1 data-translate="referral"></h1>
+      <section>
+        <div class="referral_item">
+          <div>
+            <h4 data-translate="referral_link"></h4>
+            <p>
+              <a id="ref-link"></a>
+              <a id="act-copy" href data-translate="copy_link"></a>
+              <input type="text" id="ref-link-value" value="">
+            </p>
+            <p data-translate="referral_link_info"></p>
+          </div>
+          <div>
+            <h4 data-translate="paid_referral_rewards"></h4>
+            <div class="ref-rewards-total"><span id="paid-referral-rewards"></span><span>TRX</span></div>
+          </div>
+        </div>
+        <div class="referral_item">
+          <div>
+            <h4 data-translate="your_referrals_total"></h4>
+            <div class="referral_levels">
+              <div>
+                <h5 data-translate="first_level"></h5>
+                <p data-translate="first_level_desc"></p>
+                <div id="ref-first-level-count" class="ref-count"></div>
+              </div>
+              <div>
+                <h5 data-translate="second_level"></h5>
+                <p data-translate="second_level_desc"></p>
+                <div id="ref-second-level-count" class="ref-count"></div>
+              </div>
+              <div>
+                <h5 data-translate="third_level"></h5>
+                <p data-translate="third_level_desc"></p>
+                <div id="ref-third-level-count" class="ref-count"></div>
+              </div>
+            </div>
+          </div>
+          <div class="border-left-gray">
+            <h4 data-translate="invetee_rewards"></h4>
+            <div class="invetee-title" data-translate="invetee_rewards_desc"></div>
+            <div class="invetee-rewards hidden">350.00<span>TRX</span></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div id="investments" class="block">
+    <div class="container">
+      <h1 data-translate="investments">Investments</h1>
+
+      <div class="loading"></div>
+
+      <div class="no_investments_row">
+        You don't have any investments yet.
+      </div>
+      <section class="investments">
+        <div class="investments__row_header">
+          <div>
+            <h5 data-translate="date"></h5>
+          </div>
+          <div>
+            <h5 data-translate="invested"></h5>
+          </div>
+          <div >
+            <h5 data-translate="roi"></h5>
+          </div>
+          <div>
+            <h5 data-translate="paid_out"></h5>
+          </div>
+          <div>
+            <h5 data-translate="available_for_withdraw"></h5>
+          </div>
+        </div>
+        <div class="investments__row hidden">
+          <div>
+            <p>15:18 31-03-2019</p>
+          </div>
+          <div>
+            <p>2 500 <span>TRX</span></p>
+          </div>
+          <div>
+            <p>300 <span>TRX</span></p>
+          </div>
+          <div>
+            <p>54.0000 <span>TRX</span></p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div id="faq">
+    <div class="container">
+      <h1 data-translate="faq"></h1>
+      <dl class="accordion">
+        <dt><a href="#" data-translate="is_tronfund_a_safe"></a></dt>
+        <dd data-translate="desc_is_tronfund_a_safe"></dd>
+        <dt><a href="#" data-translate="what_do_i_need"></a></dt>
+        <dd data-translate="desc_what_do_i_need"></dd>
+        <dt><a href="#" data-translate="how_does_it_works"></a></dt>
+        <dd data-translate="desc_how_does_it_works"></dd>
+        <dt><a href="#" data-translate="how_to_get_a_bonus"></a></dt>
+        <dd data-translate="desc_how_to_get_a_bonus"></dd>
+        <dt><a href="#" data-translate="do_you_have_referral_program"></a></dt>
+        <dd data-translate="desc_do_you_have_referral_program"></dd>
+        <dt><a href="#" data-translate="what_is_your_fee_amount"></a></dt>
+        <dd data-translate="desc_what_is_your_fee_amount"></dd>
+        <dt><a href="#" data-translate="still_have_a_question"></a></dt>
+        <dd data-translate="desc_still_have_a_question"></dd>
+      </dl>
+    </div>
+  </div>
+
+  <div id="contact-us">
+    <div class="container">
+      <h1 data-translate="contact"></h1>
+      <div class="contact-us__telegram-container">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 84 84" style="enable-background:new 0 0 84 84;" xml:space="preserve" width="50px" height="50px">
+          <circle style="fill:#90A4AE;" cx="42" cy="42" r="41.7"/>
+          <path style="fill:#FFFFFF;" d="M62.7,23.2l-7.8,39.8c0,0-0.3,1.8-2.6,1.8c-1.2,0-1.8-0.6-1.8-0.6l-16.9-14l-8.3-4.2l-10.6-2.8
+          	c0,0-1.9-0.5-1.9-2.1c0-1.3,1.9-1.9,1.9-1.9l44.4-17.6c0,0,1.4-0.5,2.3-0.5c0.6,0,1.3,0.3,1.3,1C62.8,22.7,62.7,23.2,62.7,23.2z"/>
+          <path style="fill:#B0BEC5;" d="M39.9,55.6l-7.1,7c0,0-0.3,0.2-0.7,0.2c-0.1,0-0.3,0-0.5-0.1l2-12.4L39.9,55.6z"/>
+          <path style="fill:#CFD8DC;" d="M54.3,29.9c-0.4-0.5-1-0.5-1.5-0.2L25.3,46.2c0,0,4.4,12.3,5.1,14.4c0.7,2.1,1.2,2.2,1.2,2.2l2-12.4l20.5-19
+          	C54.5,31,54.6,30.4,54.3,29.9z"/>
+        </svg>
+        <div class="contact-us__telegram-item">
+          <h4 data-translate="telegram">Telegram</h4>
+          <div class="flex">
+            <a href="https://t.me/tronfund_en" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16px" height="16px">
+                  <path fill="#607D8B" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal" d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible"/>
+              </svg>
+              <span>English</span>
+            </a>
+            <a href="https://t.me/tronfund_ru" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16px" height="16px">
+                  <path fill="#607D8B" style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal" d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible"/>
+              </svg>
+              <span>Русский</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8.8.1/dist/sweetalert2.min.js"></script>
+  <script src="js/translation/translation.min.js?v=8892"></script>
+  <script src="js/main.js?v=8892"></script>
+
+  <script type="text/javascript">
+    var _paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://tronfund.matomo.cloud/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+</body>
+
+</html>
